@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SoyaDokio的博客</title>
+  
+  <subtitle>♥ Do have faith in what you&#39;re doing.</subtitle>
+  <link href="http://blog.sdokio.cn/atom.xml" rel="self"/>
+  
+  <link href="http://blog.sdokio.cn/"/>
+  <updated>2020-09-27T10:02:19.000Z</updated>
+  <id>http://blog.sdokio.cn/</id>
+  
+  <author>
+    <name>SoyaDokio</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>当前运行批处理各种属性的获取</title>
+    <link href="http://blog.sdokio.cn/2020/09/27/%E5%BD%93%E5%89%8D%E8%BF%90%E8%A1%8C%E6%89%B9%E5%A4%84%E7%90%86%E5%90%84%E7%A7%8D%E5%B1%9E%E6%80%A7%E7%9A%84%E8%8E%B7%E5%8F%96/"/>
+    <id>http://blog.sdokio.cn/2020/09/27/%E5%BD%93%E5%89%8D%E8%BF%90%E8%A1%8C%E6%89%B9%E5%A4%84%E7%90%86%E5%90%84%E7%A7%8D%E5%B1%9E%E6%80%A7%E7%9A%84%E8%8E%B7%E5%8F%96/</id>
+    <published>2020-09-27T10:02:19.000Z</published>
+    <updated>2020-09-27T10:02:19.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;CMD中&lt;code&gt;%n&lt;/code&gt;指当前运行的批处理本身，以及后续用空格隔开的参数。那么&lt;code&gt;%~dp0&lt;/code&gt;是什么意思？&lt;code&gt;%~ftza0&lt;/code&gt;呢？本文做个小结，算作 Cheatsheet 以备不时之需。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="http://blog.sdokio.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="CMD" scheme="http://blog.sdokio.cn/tags/CMD/"/>
+    
+    <category term="批处理" scheme="http://blog.sdokio.cn/tags/%E6%89%B9%E5%A4%84%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>存储过程简明语法</title>
+    <link href="http://blog.sdokio.cn/2020/09/15/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95/"/>
+    <id>http://blog.sdokio.cn/2020/09/15/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95/</id>
+    <published>2020-09-15T06:14:12.000Z</published>
+    <updated>2020-09-15T06:14:12.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我是短小精悍的文章摘要(๑•̀ㅂ•́) ✧&lt;br&gt;（摘要指在博客首页未点进文章前能看到的文章部分，相当于文章预览）&lt;br&gt;（有3种方法设置摘要：）&lt;br&gt;（①在front-matter中添加description字段）&lt;br&gt;（②添加一行代码（下面一行类似注释的内容）之前均表示摘要）&lt;br&gt;（③未采取以上两种方案的话，默认以第一段为摘要）&lt;br&gt;（后两种方法点进文章后摘要属于正文，跟摘要后的正文并无区别；第1种方法的摘要不属于正文，仅作博客首页未点进文章前的预览）&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="http://blog.sdokio.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="SQL" scheme="http://blog.sdokio.cn/tags/SQL/"/>
+    
+    <category term="存储过程" scheme="http://blog.sdokio.cn/tags/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo：Markdown 简明语法手册</title>
+    <link href="http://blog.sdokio.cn/2020/09/04/Hexo%EF%BC%9AMarkdown%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C/"/>
+    <id>http://blog.sdokio.cn/2020/09/04/Hexo%EF%BC%9AMarkdown%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C/</id>
+    <published>2020-09-04T01:44:45.000Z</published>
+    <updated>2020-09-11T08:26:00.000Z</updated>
+    
+    
+    <summary type="html">对 Hexo 默认自带的 Markdown 的渲染器 hexo-renderer-marked 所支持语法的归纳整理。</summary>
+    
+    
+    
+    <category term="博客" scheme="http://blog.sdokio.cn/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="http://blog.sdokio.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo：搭建博客</title>
+    <link href="http://blog.sdokio.cn/2020/09/02/Hexo%EF%BC%9A%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://blog.sdokio.cn/2020/09/02/Hexo%EF%BC%9A%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-09-02T05:48:20.000Z</published>
+    <updated>2020-09-02T05:48:20.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录从在 Github 建立 repository 开始，到博客部署的博客建站过程。本文还包含博文版本控制、多端协作、自动部署等内容。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="博客" scheme="http://blog.sdokio.cn/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="http://blog.sdokio.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>日本地区区划概述</title>
+    <link href="http://blog.sdokio.cn/2020/08/28/%E6%97%A5%E6%9C%AC%E5%9C%B0%E5%8C%BA%E5%8C%BA%E5%88%92%E6%A6%82%E8%BF%B0/"/>
+    <id>http://blog.sdokio.cn/2020/08/28/%E6%97%A5%E6%9C%AC%E5%9C%B0%E5%8C%BA%E5%8C%BA%E5%88%92%E6%A6%82%E8%BF%B0/</id>
+    <published>2020-08-28T10:12:36.000Z</published>
+    <updated>2020-09-02T06:10:00.000Z</updated>
+    
+    
+    <summary type="html">从地区区划角度对日本做一个简单的系统概述，带领读者对日本各地区有一个粗略的认知。</summary>
+    
+    
+    
+    <category term="认识世界" scheme="http://blog.sdokio.cn/categories/%E8%AE%A4%E8%AF%86%E4%B8%96%E7%95%8C/"/>
+    
+    
+    <category term="日本" scheme="http://blog.sdokio.cn/tags/%E6%97%A5%E6%9C%AC/"/>
+    
+    <category term="区划" scheme="http://blog.sdokio.cn/tags/%E5%8C%BA%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo：多媒体的引用</title>
+    <link href="http://blog.sdokio.cn/2020/08/21/Hexo%EF%BC%9A%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E5%BC%95%E7%94%A8/"/>
+    <id>http://blog.sdokio.cn/2020/08/21/Hexo%EF%BC%9A%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E5%BC%95%E7%94%A8/</id>
+    <published>2020-08-21T10:26:58.000Z</published>
+    <updated>2020-09-02T05:50:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在写文章时，插入图片，音频和视频能令文章通俗易懂，生动形象。为满足Hexo作文时的插图片/音频/视频需求，在网上查阅后整理归纳得到此文。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="博客" scheme="http://blog.sdokio.cn/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="http://blog.sdokio.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>何谓左右</title>
+    <link href="http://blog.sdokio.cn/2020/08/21/%E4%BD%95%E8%B0%93%E5%B7%A6%E5%8F%B3/"/>
+    <id>http://blog.sdokio.cn/2020/08/21/%E4%BD%95%E8%B0%93%E5%B7%A6%E5%8F%B3/</id>
+    <published>2020-08-21T06:23:30.000Z</published>
+    <updated>2020-08-28T09:37:00.000Z</updated>
+    
+    
+    <summary type="html">对左派、右派、左翼、右翼等概念的基本认知和描述，用以简单地区分左和右。</summary>
+    
+    
+    
+    <category term="政史" scheme="http://blog.sdokio.cn/categories/%E6%94%BF%E5%8F%B2/"/>
+    
+    
+    <category term="左派" scheme="http://blog.sdokio.cn/tags/%E5%B7%A6%E6%B4%BE/"/>
+    
+    <category term="右派" scheme="http://blog.sdokio.cn/tags/%E5%8F%B3%E6%B4%BE/"/>
+    
+    <category term="左翼" scheme="http://blog.sdokio.cn/tags/%E5%B7%A6%E7%BF%BC/"/>
+    
+    <category term="右翼" scheme="http://blog.sdokio.cn/tags/%E5%8F%B3%E7%BF%BC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cron 简明语法</title>
+    <link href="http://blog.sdokio.cn/2020/07/11/Cron%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95/"/>
+    <id>http://blog.sdokio.cn/2020/07/11/Cron%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95/</id>
+    <published>2020-07-11T02:17:11.000Z</published>
+    <updated>2020-09-18T03:24:00.000Z</updated>
+    
+    
+    <summary type="html">cron 表达式用于定义定时任务的执行策略。本文目标是成为 cron 表达式的 cheatsheet。</summary>
+    
+    
+    
+    <category term="技术" scheme="http://blog.sdokio.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="cron" scheme="http://blog.sdokio.cn/tags/cron/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WinOS 内建程序启动命令汇总</title>
+    <link href="http://blog.sdokio.cn/2015/12/29/WinOS%E5%86%85%E5%BB%BA%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/"/>
+    <id>http://blog.sdokio.cn/2015/12/29/WinOS%E5%86%85%E5%BB%BA%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/</id>
+    <published>2015-12-28T16:00:00.000Z</published>
+    <updated>2020-09-18T09:20:59.000Z</updated>
+    
+    
+    <summary type="html">Win 下在运行框输入后回车可快速启动的程序们。</summary>
+    
+    
+    
+    <category term="技术" scheme="http://blog.sdokio.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Windows" scheme="http://blog.sdokio.cn/tags/Windows/"/>
+    
+    <category term="运行" scheme="http://blog.sdokio.cn/tags/%E8%BF%90%E8%A1%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Microsoft IME 日语输入法用法小结</title>
+    <link href="http://blog.sdokio.cn/2014/07/21/Microsoft-IME%E6%97%A5%E8%AF%AD%E8%BE%93%E5%85%A5%E6%B3%95%E7%94%A8%E6%B3%95%E5%B0%8F%E7%BB%93/"/>
+    <id>http://blog.sdokio.cn/2014/07/21/Microsoft-IME%E6%97%A5%E8%AF%AD%E8%BE%93%E5%85%A5%E6%B3%95%E7%94%A8%E6%B3%95%E5%B0%8F%E7%BB%93/</id>
+    <published>2014-07-21T13:45:00.000Z</published>
+    <updated>2014-07-21T13:45:00.000Z</updated>
+    
+    
+    <summary type="html">作为日语专业的学生，学习日语也有两年了。然而在使用微软自带的IME输入法时，经常会因为不会一些小操作而到处请教，一来二去也确实知道了几个。但是稍长时间不用，便马上又给忘得干干净净，于是便有了此文。</summary>
+    
+    
+    
+    <category term="日语" scheme="http://blog.sdokio.cn/categories/%E6%97%A5%E8%AF%AD/"/>
+    
+    
+    <category term="日语" scheme="http://blog.sdokio.cn/tags/%E6%97%A5%E8%AF%AD/"/>
+    
+  </entry>
+  
+</feed>
