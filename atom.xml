@@ -38,27 +38,6 @@
   </entry>
   
   <entry>
-    <title>存储过程简明语法</title>
-    <link href="http://blog.sdokio.cn/2020/09/15/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95/"/>
-    <id>http://blog.sdokio.cn/2020/09/15/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95/</id>
-    <published>2020-09-15T06:14:12.000Z</published>
-    <updated>2020-09-15T06:14:12.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;我是短小精悍的文章摘要(๑•̀ㅂ•́) ✧&lt;br&gt;（摘要指在博客首页未点进文章前能看到的文章部分，相当于文章预览）&lt;br&gt;（有3种方法设置摘要：）&lt;br&gt;（①在front-matter中添加description字段）&lt;br&gt;（②添加一行代码（下面一行类似注释的内容）之前均表示摘要）&lt;br&gt;（③未采取以上两种方案的话，默认以第一段为摘要）&lt;br&gt;（后两种方法点进文章后摘要属于正文，跟摘要后的正文并无区别；第1种方法的摘要不属于正文，仅作博客首页未点进文章前的预览）&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="技术" scheme="http://blog.sdokio.cn/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="SQL" scheme="http://blog.sdokio.cn/tags/SQL/"/>
-    
-    <category term="存储过程" scheme="http://blog.sdokio.cn/tags/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo：Markdown 简明语法手册</title>
     <link href="http://blog.sdokio.cn/2020/09/04/Hexo%EF%BC%9AMarkdown%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C/"/>
     <id>http://blog.sdokio.cn/2020/09/04/Hexo%EF%BC%9AMarkdown%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C/</id>

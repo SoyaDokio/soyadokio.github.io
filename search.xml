@@ -31,33 +31,6 @@
     
     
     <entry>
-      <title>存储过程简明语法</title>
-      <link href="/2020/09/15/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95/"/>
-      <url>/2020/09/15/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95/</url>
-      
-        <content type="html"><![CDATA[<p> 我是短小精悍的文章摘要 (๑•̀ㅂ•́) ✧<br>（摘要指在博客首页未点进文章前能看到的文章部分，相当于文章预览）<br>（有 3 种方法设置摘要：）<br>（①在 front-matter 中添加 description 字段）<br>（②添加一行代码（下面一行类似注释的内容）之前均表示摘要）<br>（③未采取以上两种方案的话，默认以第一段为摘要）<br>（后两种方法点进文章后摘要属于正文，跟摘要后的正文并无区别；第 1 种方法的摘要不属于正文，仅作博客首页未点进文章前的预览）</p><a id="more"></a>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> SQL </tag>
-            
-            <tag> 存储过程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hexo：Markdown 简明语法手册</title>
       <link href="/2020/09/04/Hexo%EF%BC%9AMarkdown%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C/"/>
       <url>/2020/09/04/Hexo%EF%BC%9AMarkdown%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C/</url>
@@ -87,7 +60,7 @@
       <link href="/2020/09/02/Hexo%EF%BC%9A%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
       <url>/2020/09/02/Hexo%EF%BC%9A%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
       
-        <content type="html"><![CDATA[<p>记录从在 Github 建立 repository 开始，到博客部署的博客建站过程。本文还包含博文版本控制、多端协作、自动部署等内容。</p><a id="more"></a><h2 id="目标及思路"><a href="# 目标及思路" class="headerlink" title="目标及思路"></a>目标及思路 </h2><p> 本文有如下几个目标：</p><ul><li>建立本地博客</li><li>部署博客到 GitHub Pages</li><li>对博文源文件进行版本控制</li><li>持续集成 / 持续部署</li></ul><p>前两条很容易理解，写博客当然是希望能发布在互联网上广而告之，选 <code>GitHub Pages</code> 是因为它有微软背书，可靠性上应该没啥问题。那一个小小博客又不是什么大项目，为何要版本控制呢？</p><p>早期的 Hexo 建博教程中，大多是使用 <code>Hexo 工作文件</code> 在本地生成 Web 文件后将其上传到 <code>GitHub Pages</code> 进行部署。这里有个问题，万一本地电脑遗失，或遭遇磁盘损坏等不可抗力因素导致 <code>Hexo 工作文件</code> 丢失，那想要继续更新博客就得重建之前的<code>Hexo 工作文件</code>，光想想就是一件很麻烦的事。所以，发布的 Web 文件可以不用版本控制，但<code>Hexo 工作文件</code>（含 Hexo 环境和博文源文件）就得版本控制以备万一之需了。</p><p>至于最后一条目标，接触过持续集成 / 持续部署的朋友可能很好理解，这又是一项偷懒罢了。每次通过 Hexo 将博文源文件生成 Web 文件后还得上传到 GitHub Pages 才算发布成功，这样究竟太过麻烦，而使用持续集成 / 持续部署后，我只负责上传保存博文源文件，剩下的编译、生成、打包、上传、发布，全部让 <code>GitHub Actions</code> 替我完成，它不香吗？</p><h2 id="建立本地博客"><a href="# 建立本地博客" class="headerlink" title="建立本地博客"></a>建立本地博客</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）渲染文章，在几秒内，即可利用靓丽的主题生成静态网页。</p><p><font color=#aaaaaa size=2>注：若要执行 Hexo 命令需先安装 Git 和 Node.js 环境，可参考 <a href="https://hexo.io/zh-cn/docs/# 安装" target="_blank" rel="noopener">Hexo 官方文档</a></font></p><h3 id="安装 Hexo"><a href="# 安装 Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><p>使用 npm 安装 Hexo。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure><h2 id="参考文献"><a href="# 参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>[1]silaoA.hexo+github pages 搭建博客站全过程记录[EB/OL].<a href="https://silaoa.github.io/2019/2019-04-18-hexo-github-pages 建博客站全过程记录.html" target="_blank" rel="noopener">https://silaoa.github.io/2019/2019-04-18-hexo-github-pages 建博客站全过程记录.html</a>,2019-04-18.<br>[2]yifanzheng. 使用 GitHub Actions 自动部署 Hexo 博客到 GitHub Pages[EB/OL].<a href="https://juejin.im/post/6854573218779381773" target="_blank" rel="noopener">https://juejin.im/post/6854573218779381773</a>,2020-07-25.<br>[3]Hexo 官方.Hexo 官方文档[EB/OL].<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a>,2020-08-31.</p>]]></content>
+        <content type="html"><![CDATA[<p>记录从在 Github 建立 repository 开始，到博客部署的博客建站过程。本文还包含博文版本控制、多端协作、自动部署等内容。</p><a id="more"></a><h2 id="目标及思路"><a href="# 目标及思路" class="headerlink" title="目标及思路"></a>目标及思路 </h2><p> 本文有如下几个目标：</p><ul><li>建立本地博客</li><li>部署博客到 GitHub Pages</li><li>对博文源文件进行版本控制</li><li>持续集成 / 持续部署</li></ul><p>前两条很容易理解，写博客当然是希望能发布在互联网上广而告之，选 <code>GitHub Pages</code> 是因为它有微软背书，可靠性上应该没啥问题。那一个小小博客又不是什么大项目，为何要版本控制呢？</p><p>早期的 Hexo 建博教程中，大多是使用 <code>Hexo 工作文件</code> 在本地生成 Web 文件后将其上传到 <code>GitHub Pages</code> 进行部署。这里有个问题，万一本地电脑遗失，或遭遇磁盘损坏等不可抗力因素导致 <code>Hexo 工作文件</code> 丢失，那想要继续更新博客就得重建之前的<code>Hexo 工作文件</code>，光想想就是一件很麻烦的事。所以，发布的 Web 文件可以不用版本控制，但<code>Hexo 工作文件</code>（含 Hexo 环境和博文源文件）就得版本控制以备万一之需了。</p><p>至于最后一条目标，接触过持续集成 / 持续部署的朋友可能很好理解，这又是一项偷懒罢了。每次通过 Hexo 将博文源文件生成 Web 文件后还得上传到 GitHub Pages 才算发布成功，这样究竟太过麻烦，而使用持续集成 / 持续部署后，我只负责上传保存博文源文件，剩下的编译、生成、打包、上传、发布，全部让 <code>GitHub Actions</code> 替我完成，它不香吗？</p><h2 id="建立本地博客"><a href="# 建立本地博客" class="headerlink" title="建立本地博客"></a>建立本地博客</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）渲染文章，在几秒内，即可利用靓丽的主题生成静态网页。</p><p><font color=#aaaaaa size=2>注：若要执行 Hexo 命令需先安装 Git 和 Node.js 环境，可参考 <a href="https://hexo.io/zh-cn/docs/# 安装" target="_blank" rel="noopener">Hexo 官方文档</a></font></p><h3 id="安装 Hexo"><a href="# 安装 Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><p>使用 npm 安装 Hexo。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure><h1 id="未完待续…（可是不想写了，之后如果有这个闲情再说吧）"><a href="# 未完待续…（可是不想写了，之后如果有这个闲情再说吧）" class="headerlink" title="未完待续…（可是不想写了，之后如果有这个闲情再说吧）"></a>未完待续…（可是不想写了，之后如果有这个闲情再说吧）</h1><h2 id="参考文献"><a href="# 参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>[1]silaoA.hexo+github pages 搭建博客站全过程记录[EB/OL].<a href="https://silaoa.github.io/2019/2019-04-18-hexo-github-pages 建博客站全过程记录.html" target="_blank" rel="noopener">https://silaoa.github.io/2019/2019-04-18-hexo-github-pages 建博客站全过程记录.html</a>,2019-04-18.<br>[2]yifanzheng. 使用 GitHub Actions 自动部署 Hexo 博客到 GitHub Pages[EB/OL].<a href="https://juejin.im/post/6854573218779381773" target="_blank" rel="noopener">https://juejin.im/post/6854573218779381773</a>,2020-07-25.<br>[3]Hexo 官方.Hexo 官方文档[EB/OL].<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a>,2020-08-31.</p>]]></content>
       
       
       <categories>
